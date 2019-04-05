@@ -2,8 +2,7 @@ var playlist = new Object({keys: '0'});
 
 function updatePlaylist (playlist, artistName, songTitle)
 {
-  playlist[artistName]
-  playlist[songTitle]
+  playlist[artistName] = songTitle
 }
 
 
